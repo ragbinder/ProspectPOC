@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E21C5E571A33F667000F4A81 /* ADAL_iPad_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E21C5E551A33F667000F4A81 /* ADAL_iPad_Storyboard.storyboard */; };
+		E21C5E581A33F667000F4A81 /* ADAL_iPhone_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E21C5E561A33F667000F4A81 /* ADAL_iPhone_Storyboard.storyboard */; };
+		E21C5E5D1A35811D000F4A81 /* AXCCreateProspectViewControllerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E21C5E5C1A35811D000F4A81 /* AXCCreateProspectViewControllerTableViewController.m */; };
+		E21C5E631A358235000F4A81 /* AXCCreateProspectTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E21C5E621A358235000F4A81 /* AXCCreateProspectTableViewCell.m */; };
+		E21C5E671A358707000F4A81 /* AXCDropdownCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E21C5E661A358707000F4A81 /* AXCDropdownCell.m */; };
+		E21C5E691A35A134000F4A81 /* CreateProspectCells.plist in Resources */ = {isa = PBXBuildFile; fileRef = E21C5E681A35A134000F4A81 /* CreateProspectCells.plist */; };
+		E21C5EA11A35AF5F000F4A81 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E21C5E9F1A35AF5F000F4A81 /* Model.xcdatamodeld */; };
+		E21C5EA41A35B455000F4A81 /* AXCManageProspectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E21C5EA31A35B455000F4A81 /* AXCManageProspectViewController.m */; };
 		E24E1B261A33AEB80080D26D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E24E1B251A33AEB80080D26D /* Foundation.framework */; };
 		E24E1B281A33AEB80080D26D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E24E1B271A33AEB80080D26D /* CoreGraphics.framework */; };
 		E24E1B2A1A33AEB80080D26D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E24E1B291A33AEB80080D26D /* UIKit.framework */; };
@@ -21,6 +29,7 @@
 		E24E1B471A33AEB80080D26D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E24E1B291A33AEB80080D26D /* UIKit.framework */; };
 		E24E1B4F1A33AEB80080D26D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E24E1B4D1A33AEB80080D26D /* InfoPlist.strings */; };
 		E24E1B511A33AEB80080D26D /* Prospect_POCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E24E1B501A33AEB80080D26D /* Prospect_POCTests.m */; };
+		E24E1B641A33D6440080D26D /* ADALiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E24E1B631A33D6440080D26D /* ADALiOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E21C5E551A33F667000F4A81 /* ADAL_iPad_Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = ADAL_iPad_Storyboard.storyboard; path = "../../../ADAL/azure-activedirectory-library-for-objc/ADALiOS/ADALiOS/ADAL_iPad_Storyboard.storyboard"; sourceTree = "<group>"; };
+		E21C5E561A33F667000F4A81 /* ADAL_iPhone_Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = ADAL_iPhone_Storyboard.storyboard; path = "../../../ADAL/azure-activedirectory-library-for-objc/ADALiOS/ADALiOS/ADAL_iPhone_Storyboard.storyboard"; sourceTree = "<group>"; };
+		E21C5E5B1A35811D000F4A81 /* AXCCreateProspectViewControllerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXCCreateProspectViewControllerTableViewController.h; sourceTree = "<group>"; };
+		E21C5E5C1A35811D000F4A81 /* AXCCreateProspectViewControllerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXCCreateProspectViewControllerTableViewController.m; sourceTree = "<group>"; };
+		E21C5E611A358235000F4A81 /* AXCCreateProspectTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXCCreateProspectTableViewCell.h; sourceTree = "<group>"; };
+		E21C5E621A358235000F4A81 /* AXCCreateProspectTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXCCreateProspectTableViewCell.m; sourceTree = "<group>"; };
+		E21C5E651A358707000F4A81 /* AXCDropdownCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXCDropdownCell.h; sourceTree = "<group>"; };
+		E21C5E661A358707000F4A81 /* AXCDropdownCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXCDropdownCell.m; sourceTree = "<group>"; };
+		E21C5E681A35A134000F4A81 /* CreateProspectCells.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CreateProspectCells.plist; sourceTree = "<group>"; };
+		E21C5EA01A35AF5F000F4A81 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		E21C5EA21A35B455000F4A81 /* AXCManageProspectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXCManageProspectViewController.h; sourceTree = "<group>"; };
+		E21C5EA31A35B455000F4A81 /* AXCManageProspectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXCManageProspectViewController.m; sourceTree = "<group>"; };
 		E24E1B221A33AEB80080D26D /* Prospect POC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prospect POC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E24E1B251A33AEB80080D26D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E24E1B271A33AEB80080D26D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +74,7 @@
 		E24E1B4C1A33AEB80080D26D /* Prospect POCTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Prospect POCTests-Info.plist"; sourceTree = "<group>"; };
 		E24E1B4E1A33AEB80080D26D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E24E1B501A33AEB80080D26D /* Prospect_POCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Prospect_POCTests.m; sourceTree = "<group>"; };
+		E24E1B631A33D6440080D26D /* ADALiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ADALiOS.framework; path = "../../../Library/Developer/Xcode/DerivedData/ADALiOS-dbxtyjllqawzvlcmgebpdejobytm/Build/Products/Debug-iphoneos/ADALiOS.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E24E1B641A33D6440080D26D /* ADALiOS.framework in Frameworks */,
 				E24E1B281A33AEB80080D26D /* CoreGraphics.framework in Frameworks */,
 				E24E1B2A1A33AEB80080D26D /* UIKit.framework in Frameworks */,
 				E24E1B261A33AEB80080D26D /* Foundation.framework in Frameworks */,
@@ -79,6 +102,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E21C5E5E1A358124000F4A81 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E21C5EA21A35B455000F4A81 /* AXCManageProspectViewController.h */,
+				E21C5EA31A35B455000F4A81 /* AXCManageProspectViewController.m */,
+				E24E1B3A1A33AEB80080D26D /* AXCViewController.h */,
+				E24E1B3B1A33AEB80080D26D /* AXCViewController.m */,
+				E21C5E5B1A35811D000F4A81 /* AXCCreateProspectViewControllerTableViewController.h */,
+				E21C5E5C1A35811D000F4A81 /* AXCCreateProspectViewControllerTableViewController.m */,
+				E21C5E681A35A134000F4A81 /* CreateProspectCells.plist */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		E21C5E601A358140000F4A81 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				E24E1B341A33AEB80080D26D /* AXCAppDelegate.h */,
+				E24E1B351A33AEB80080D26D /* AXCAppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		E21C5E641A35823A000F4A81 /* Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E21C5E611A358235000F4A81 /* AXCCreateProspectTableViewCell.h */,
+				E21C5E621A358235000F4A81 /* AXCCreateProspectTableViewCell.m */,
+				E21C5E651A358707000F4A81 /* AXCDropdownCell.h */,
+				E21C5E661A358707000F4A81 /* AXCDropdownCell.m */,
+			);
+			name = "Table Cells";
+			sourceTree = "<group>";
+		};
 		E24E1B191A33AEB80080D26D = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +158,7 @@
 		E24E1B241A33AEB80080D26D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E24E1B631A33D6440080D26D /* ADALiOS.framework */,
 				E24E1B251A33AEB80080D26D /* Foundation.framework */,
 				E24E1B271A33AEB80080D26D /* CoreGraphics.framework */,
 				E24E1B291A33AEB80080D26D /* UIKit.framework */,
@@ -112,13 +170,13 @@
 		E24E1B2B1A33AEB80080D26D /* Prospect POC */ = {
 			isa = PBXGroup;
 			children = (
-				E24E1B341A33AEB80080D26D /* AXCAppDelegate.h */,
-				E24E1B351A33AEB80080D26D /* AXCAppDelegate.m */,
+				E21C5E641A35823A000F4A81 /* Table Cells */,
+				E21C5E5E1A358124000F4A81 /* View Controllers */,
+				E21C5E601A358140000F4A81 /* App Delegate */,
 				E24E1B371A33AEB80080D26D /* Main.storyboard */,
-				E24E1B3A1A33AEB80080D26D /* AXCViewController.h */,
-				E24E1B3B1A33AEB80080D26D /* AXCViewController.m */,
 				E24E1B3D1A33AEB80080D26D /* Images.xcassets */,
 				E24E1B2C1A33AEB80080D26D /* Supporting Files */,
+				E21C5E9F1A35AF5F000F4A81 /* Model.xcdatamodeld */,
 			);
 			path = "Prospect POC";
 			sourceTree = "<group>";
@@ -126,6 +184,8 @@
 		E24E1B2C1A33AEB80080D26D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E21C5E551A33F667000F4A81 /* ADAL_iPad_Storyboard.storyboard */,
+				E21C5E561A33F667000F4A81 /* ADAL_iPhone_Storyboard.storyboard */,
 				E24E1B2D1A33AEB80080D26D /* Prospect POC-Info.plist */,
 				E24E1B2E1A33AEB80080D26D /* InfoPlist.strings */,
 				E24E1B311A33AEB80080D26D /* main.m */,
@@ -230,7 +290,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E24E1B3E1A33AEB80080D26D /* Images.xcassets in Resources */,
+				E21C5E571A33F667000F4A81 /* ADAL_iPad_Storyboard.storyboard in Resources */,
 				E24E1B301A33AEB80080D26D /* InfoPlist.strings in Resources */,
+				E21C5E581A33F667000F4A81 /* ADAL_iPhone_Storyboard.storyboard in Resources */,
+				E21C5E691A35A134000F4A81 /* CreateProspectCells.plist in Resources */,
 				E24E1B391A33AEB80080D26D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,7 +313,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E21C5EA41A35B455000F4A81 /* AXCManageProspectViewController.m in Sources */,
 				E24E1B321A33AEB80080D26D /* main.m in Sources */,
+				E21C5E671A358707000F4A81 /* AXCDropdownCell.m in Sources */,
+				E21C5E631A358235000F4A81 /* AXCCreateProspectTableViewCell.m in Sources */,
+				E21C5EA11A35AF5F000F4A81 /* Model.xcdatamodeld in Sources */,
+				E21C5E5D1A35811D000F4A81 /* AXCCreateProspectViewControllerTableViewController.m in Sources */,
 				E24E1B361A33AEB80080D26D /* AXCAppDelegate.m in Sources */,
 				E24E1B3C1A33AEB80080D26D /* AXCViewController.m in Sources */,
 			);
@@ -377,9 +445,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ADALiOS-dbxtyjllqawzvlcmgebpdejobytm/Build/Products/Debug-iphoneos",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Prospect POC/Prospect POC-Prefix.pch";
 				INFOPLIST_FILE = "Prospect POC/Prospect POC-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ADALiOS-dbxtyjllqawzvlcmgebpdejobytm/Build/Products/Debug-iphoneos",
+				);
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -390,9 +467,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ADALiOS-dbxtyjllqawzvlcmgebpdejobytm/Build/Products/Debug-iphoneos",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Prospect POC/Prospect POC-Prefix.pch";
 				INFOPLIST_FILE = "Prospect POC/Prospect POC-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ADALiOS-dbxtyjllqawzvlcmgebpdejobytm/Build/Products/Debug-iphoneos",
+				);
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -457,6 +543,7 @@
 				E24E1B561A33AEB80080D26D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E24E1B571A33AEB80080D26D /* Build configuration list for PBXNativeTarget "Prospect POCTests" */ = {
 			isa = XCConfigurationList;
@@ -465,8 +552,22 @@
 				E24E1B591A33AEB80080D26D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E21C5E9F1A35AF5F000F4A81 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E21C5EA01A35AF5F000F4A81 /* Model.xcdatamodel */,
+			);
+			currentVersion = E21C5EA01A35AF5F000F4A81 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E24E1B1A1A33AEB80080D26D /* Project object */;
 }

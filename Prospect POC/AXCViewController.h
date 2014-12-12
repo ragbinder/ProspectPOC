@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AXCViewController : UIViewController
-
+@interface AXCViewController : UITableViewController <UITableViewDataSource, UITableViewDelegate>
+@property (strong, nonatomic) IBOutlet UITableView *tableView;  
 @end

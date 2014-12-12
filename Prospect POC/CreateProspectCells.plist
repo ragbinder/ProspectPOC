@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>descriptionLabel</key>
+		<string>First Name</string>
+		<key>isRequired</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>descriptionLabel</key>
+		<string>Middle Name</string>
+		<key>isRequired</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>descriptionLabel</key>
+		<string>Last Name</string>
+		<key>isRequired</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>descriptionLabel</key>
+		<string>Currency</string>
+		<key>isRequired</key>
+		<true/>
+		<key>pickerList</key>
+		<array>
+			<string>USD</string>
+			<string>EUR</string>
+			<string>INR</string>
+			<string>AUD</string>
+			<string>CAD</string>
+		</array>
+	</dict>
+	<dict>
+		<key>descriptionLabel</key>
+		<string>Phone</string>
+		<key>isRequired</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>descriptionLabel</key>
+		<string>Email</string>
+		<key>isRequired</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>pickerList</key>
+		<array>
+			<string>USA</string>
+			<string>India</string>
+			<string>Australia</string>
+			<string>Canada</string>
+		</array>
+		<key>descriptionLabel</key>
+		<string>Country</string>
+		<key>isRequired</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>descriptionLabel</key>
+		<string>State</string>
+		<key>pickerList</key>
+		<array>
+			<string>Washington</string>
+			<string>California</string>
+		</array>
+		<key>isRequired</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>descriptionLabel</key>
+		<string>City</string>
+		<key>pickerList</key>
+		<array>
+			<string>Bellevue</string>
+			<string>Redmond</string>
+		</array>
+		<key>isRequired</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>descriptionLabel</key>
+		<string>Address</string>
+		<key>isRequired</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>descriptionLabel</key>
+		<string>Zip Code</string>
+		<key>isRequired</key>
+		<false/>
+	</dict>
+</array>
+</plist>
